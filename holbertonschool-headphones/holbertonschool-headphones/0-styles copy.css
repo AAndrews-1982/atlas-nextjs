@@ -1,0 +1,74 @@
+/* Your CSS code here */
+
+/* Media Queries for Tablet and Mobile Responsiveness */
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .section1,
+    .section2 {
+        padding: 10px;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        margin: 10px;
+    }
+
+    .contact form {
+        max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .icon {
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+}
