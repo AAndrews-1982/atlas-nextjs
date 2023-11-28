@@ -1,86 +1,136 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Homepage Headphones</title>
-    <meta name="description" content="Headphones is a digital agency">
-    <link rel="icon" type="image/png" href="images/favicon.jpg">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='0-styles.css'>
-    <link rel="stylesheet" href="./reset.css" />
-  </head>
-  <body>
-    
+<html>
 
-<!-- Header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" type="text/css" href="0-styles.css">
+</head>
+
+<body>
 
 
-    <header>
-      <div class="logo-container">
-        <img
-          class="logo"
-          src="./images/logo_headphones.png"
-          alt="headphones logo"
-        />
-      </div>
-      <div class="nav large-nav">
-        <ul>
-          <li>
-            <a href="#">what we do</a>
-          </li>
-          <li>
-            <a href="#">our results</a>
-          </li>
-          <li>
-            <a href="#">contact us</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Header Section -->
+
+
+    <header class="header">
+        <img src="images/logo_headphones.png" alt="Logo">
+        <nav class="menu">
+            <ul>
+                <li>what we do</li>
+                <li>our results</li>
+                <li>contact us</li>
+            </ul>
+        </nav>
     </header>
 
 
-    <!-- Main -->
-    
-    <main>
+    <!-- Hero Section -->
 
 
-      <!-- Hero section -->
-
-
-      <section class="hero-section">
-        <input type="checkbox" id="small-icon-btn" />
-        <label class="small-icon-handler" for="small-icon-btn"></label>
-        <div class="nav small-nav">
-          <ul>
-            <li>
-              <a href="#">what we do</a>
-            </li>
-            <li>
-              <a href="#">our results</a>
-            </li>
-            <li>
-              <a href="#">contact us</a>
-            </li>
-          </ul>
+    <section class="hero">
+        <img src="images/headphones_hero_1.jpg" alt="Hero Image">
+        <div class="hero-content">
+            <h1>Title</h1>
+            <p>Paragraph Text</p>
+            <button>Button</button>
+            <p>Text Below Button</p>
         </div>
-        <div class="container hero-infos">
-          <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
-          <h2 class="hero-subtitle">
-            Lorem ipsum dolor set amet lorem ipsum dolor set
-          </h2>
-          <button class="btn hero-btn">CALL TO ACTION</button>
-          <p class="hero-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.
-          </p>
+    </section>
+
+
+    <!-- Section 1 -->
+
+
+    <section class="section1">
+        <h2>Title</h2>
+        <p>Paragraph Text</p>
+        <div class="icons">
+            <div class="icon">
+                <img src="icon1.png" alt="Icon 1">
+                <h3>Title 1</h3>
+                <p>Paragraph 1</p>
+            </div>
+            <div class="icon">
+                <img src="icon2.png" alt="Icon 2">
+                <h3>Title 2</h3>
+                <p>Paragraph 2</p>
+            </div>
+            <div class="icon">
+                <img src="icon3.png" alt="Icon 3">
+                <h3>Title 3</h3>
+                <p>Paragraph 3</p>
+            </div>
+            <div class="icon">
+                <img src="icon4.png" alt="Icon 4">
+                <h3>Title 4</h3>
+                <p>Paragraph 4</p>
+            </div>
         </div>
-      </section>
-    </main>
-  </div>
+    </section>
+
+
+    <!-- Section 2 -->
+
+
+    <section class="section2">
+        <h2>Our results speak for themselves</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <img src="images/headphones_hero_2.jpg" alt="Image">
+        <div class="icons">
+            <div class="pentagone">
+                <img src="images/pentagone.png" alt="pentagone">
+                <h3>Title 1</h3>
+                <p>Paragraph 1</p>
+            </div>
+            <div class="pentagone">
+                <img src="images/pentagone.png" alt="pentagone">
+                <h3>Title 2</h3>
+                <p>Paragraph 2</p>
+            </div>
+            <div class="pentagone">
+                <img src="images/pentagone.png" alt="pentagone">
+                <h3>Title 3</h3>
+                <p>Paragraph 3</p>
+            </div>
+            <div class="pentagone">
+                <img src="images/pentagone.png" alt="pentagone">
+                <h3>Title 4</h3>
+                <p>Paragraph 4</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+    <!-- Footer Section -->
+
+
+    <footer class="footer">
+        <div class="footer-logo">
+        <img src="images/logo_headphones.png" alt="Logo">
+        <div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+     </div>
+     <p>&copy; 2023 headphones</p>
+    </footer>
 </body>
 </html>
